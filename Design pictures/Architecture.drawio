@@ -1,2 +1,91 @@
-[InternetShortcut]
-URL=https://cdn.discordapp.com/attachments/894626779912876092/1158577841995255848/Architecture.drawio?ex=651cc132&is=651b6fb2&hm=fddaa5c38d01b056989f4cab7de1dbe544f46ab77c0be88844ef67b009a0a3b5&
+<mxfile host="app.diagrams.net" modified="2023-10-03T01:34:29.387Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="3Idhgyn8pVQeHdSGxPbT" version="21.8.2" type="device">
+  <diagram name="Page-1" id="x_k2-RrYFky1ILUgUChm">
+    <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4NfzqUORZuenVZ4MR8TH-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4NfzqUORZuenVZ4MR8TH-1" target="4NfzqUORZuenVZ4MR8TH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4NfzqUORZuenVZ4MR8TH-1" value="MongoDB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="490" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4NfzqUORZuenVZ4MR8TH-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4NfzqUORZuenVZ4MR8TH-2" target="4NfzqUORZuenVZ4MR8TH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4NfzqUORZuenVZ4MR8TH-12" value="Chat Messages Of Subscribed channel" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4NfzqUORZuenVZ4MR8TH-11">
+          <mxGeometry x="0.0875" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4NfzqUORZuenVZ4MR8TH-2" value="Redis" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="490" y="500" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4NfzqUORZuenVZ4MR8TH-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=-0.01;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4NfzqUORZuenVZ4MR8TH-4" target="4NfzqUORZuenVZ4MR8TH-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="460" />
+              <mxPoint x="431" y="460" />
+              <mxPoint x="431" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4NfzqUORZuenVZ4MR8TH-15" value="Publish Message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4NfzqUORZuenVZ4MR8TH-14">
+          <mxGeometry x="-0.7053" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4NfzqUORZuenVZ4MR8TH-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4NfzqUORZuenVZ4MR8TH-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4NfzqUORZuenVZ4MR8TH-18" value="Primary Database" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4NfzqUORZuenVZ4MR8TH-17">
+          <mxGeometry x="-0.0025" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4NfzqUORZuenVZ4MR8TH-4" value="Application Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4NfzqUORZuenVZ4MR8TH-5" value="Websocket Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4NfzqUORZuenVZ4MR8TH-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4NfzqUORZuenVZ4MR8TH-6" target="4NfzqUORZuenVZ4MR8TH-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="130" />
+              <mxPoint x="520" y="131" />
+              <mxPoint x="540" y="131" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4NfzqUORZuenVZ4MR8TH-8" value="Chat Connection" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4NfzqUORZuenVZ4MR8TH-7">
+          <mxGeometry x="0.1727" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4NfzqUORZuenVZ4MR8TH-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4NfzqUORZuenVZ4MR8TH-6" target="4NfzqUORZuenVZ4MR8TH-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="130" />
+              <mxPoint x="300" y="131" />
+              <mxPoint x="280" y="131" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4NfzqUORZuenVZ4MR8TH-13" value="Routes and Message Send" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4NfzqUORZuenVZ4MR8TH-10">
+          <mxGeometry x="0.3106" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4NfzqUORZuenVZ4MR8TH-6" value="Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="100" width="105" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
