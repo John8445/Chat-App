@@ -1,13 +1,74 @@
+html {
+  height: 100%;
+  width:100%;
+}
+
 body {
-  margin: 0;
+  margin:0;
+  height: 100%;
+  width: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  
+}
+
+.Signup-signup-title {
+  box-sizing: content-box;
+  margin: 0;
+}
+
+.Signup-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.Signup-signup-container {
+  box-sizing: border-box;
+  border: 1px solid;
+  border-radius: 15%;
+  height: 700px;
+  width: 35%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  
+}
+
+.Signup-signup-title {
+  font-family: 'Gugi', cursive;
+  font-size: 60px;
+  display: block;
+
+}
+
+.Signup-signup-main-content {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.Signup-input-field-wrapper input {
+  width: 95%;
 }

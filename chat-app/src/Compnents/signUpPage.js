@@ -24,31 +24,21 @@ function SignupPage (){
     <>
         <div className="Signup-main-container">
             <div className='Signup-signup-container'>
-                <div className='Signup-signup-main-content'>
-                    <p className='Signup-signup-title'>QwickChat</p>
+                <div className='Signup-signup-main-content'> 
+                    <p className='Signup-signup-title'>QwickChat</p> 
                     <div className='Signup-input-field-wrapper'>
                         <input type='text'></input>
-                        <span class="Signup-input-title">Email</span>
                     </div>
                     <div className='Signup-input-field-wrapper'>
                         <input type='text'></input>
-                        <span class="Signup-input-title">Username</span>
                     </div>
                     <div className='Signup-input-field-wrapper'>
                         <input type='text'></input>
-                        <span class="Signup-input-title">Password</span>
                     </div>
                     <div className='Signup-input-field-wrapper'>
                         <input type='text'></input>
-                        <span class="Signup-input-title">Verify Password</span>
-                    </div>
+                    </div>   
                 </div>
-                <div className='Signup-error-box'>
-
-                </div>
-            </div>
-            <div className='Signup-error-msg-container'>
-
             </div>
         </div>
     </>)
