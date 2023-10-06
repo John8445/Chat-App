@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This will make sure the container takes the full viewport height */
+    margin: 0; /* This will remove any default margin */
+    font-family: Arial, sans-serif; /* Optional: Just to make it look a bit cleaner */
+}
+
+.login-container {
+    width: 300px;
+    margin: 0 auto; /* Removed the top and bottom margin for perfect centering */
+    padding: 20px 60px; /* Increased the horizontal padding so input boxes don't touch the border */
+    border: 1.5px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding-top: 1px;  /* Reduce the top padding */
+    padding-bottom: 30px;  /* Optionally, increase the bottom padding to maintain balance */
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 90%; /* Reduce width to 90% so they don't touch the borders */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left: auto; /* Center the block element horizontally */
+    margin-right: auto; /* Center the block element horizontally */
+    display: block; /* Makes sure it's treated as a block element */
+}
+
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.register-link {
+    color: #007BFF; /* This makes it look like a typical blue link */
+    text-decoration: none; /* Removes the underline */
+}
+
+.register-link:hover {
+    text-decoration: underline; /* Underlines on hover for better UX */
+}
+
+h2 {
+    font-size: 2.5rem; 
+    margin-bottom: 5px; /* Reduce the bottom margin */
+}
+
+p {
+    font-size: 0.9rem; 
+    margin-bottom: 25px; /* Increase the bottom margin to separate from the input boxes */
+}
+
+.input-group:last-child {
+    margin-bottom: 30px;  /* Adjust this value as per your requirement */
+}
