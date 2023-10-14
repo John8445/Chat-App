@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { Fragment } from 'react';
-
+import './signUpPage.css'
 
 
 function ErrorBox({props}){
@@ -120,7 +120,7 @@ function SignupPage (){
                         <input type='text' className='Signup-text-input' required onChange={(e) => {validateVerifyPassword(e)}}></input>
                         <span class="Signup-input-title">Verify Password</span>
                     </div> 
-                    <input type="button" value={"Sign Up"} id="Signup-button" ></input>  
+                    <input type="button" value={"Sign Up"} id="Signup-button" disabled={(showError.passwordError || showError.emailError || showError.userNameError || showError.verifyPassError)}></input>  
                 </div>
             </div>
         </div>
