@@ -1,8 +1,5 @@
 import reportWebVitals from './reportWebVitals';
-import React from 'react'
-import ReactDOM  from 'react-dom'
-import LoginPage from './Components/loginPage'
-import SignUpPage from './Components/signUpPagePage'
+import SignupPage from './Components/signUpPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
