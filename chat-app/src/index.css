@@ -44,11 +44,11 @@ code {
   box-sizing: border-box;
   border: 1px solid;
   border-radius: 15%;
-  height: 700px;
-  width: 35%;
+  height: 600px;
+  width: 500px;
   padding-left: 40px;
   padding-right: 40px;
-  padding-top: 20px;
+  padding-top: 50px;
   padding-bottom: 10px;
   
 }
@@ -57,6 +57,7 @@ code {
   font-family: 'Gugi', cursive;
   font-size: 60px;
   display: block;
+  margin-bottom: 20px;
 
 }
 
@@ -69,6 +70,58 @@ code {
   height: 100%;
 }
 
-.Signup-input-field-wrapper input {
-  width: 95%;
+.Signup-input-field-wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.Signup-text-input {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  padding:20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+#Signup-button {
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  border:none;
+  background-color: #3C26FF;
+  color: white;
+}
+
+.Signup-input-title {
+  position: absolute;
+  left:20px;
+  top:5px;
+  color:grey;
+}
+
+.Signup-text-input:focus ~ .Signup-input-title, .Signup-text-input:valid ~ .Signup-input-title{
+  display: none;
+}
+
+.Signup-text-input:valid ~ .Signup-input-title{
+  display: none;
+}
+
+.Signup-red-text {
+  color:red
+}
+
+.Signup-black-text {
+  color:black;
+}
+
+.Signup-error-box {
+  position: absolute;
+  height: 200px;
+  width: 300px;;
+  border: 2px solid;
+  border-radius: 5px;
+  top:190px;
+  left:370px;
 }
