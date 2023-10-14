@@ -10,6 +10,7 @@ function LoginPage() {
         console.log('Username:', username, 'Password:', password);
     }
 
+
     return (
         <div className="login-container">
             <h2>QwikChat</h2>
