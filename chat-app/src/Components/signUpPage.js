@@ -24,7 +24,7 @@ function ErrorBox({props}){
     )
 }
 
-function SignupPage (){
+function SignUpPage (){
     const [email, setEmail] = useState('');
     const [userName, setUserName] = useState('');
     const [password, setPassword] = useState('');
@@ -128,4 +128,4 @@ function SignupPage (){
 
 }
 
-export default SignupPage;
+export default SignUpPage;
