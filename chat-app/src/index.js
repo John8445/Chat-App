@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import SignupPage from './Components/signUpPage';
+import FindAndCreate from './Components/chatPopUps';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SignupPage />
+    <FindAndCreate></FindAndCreate>
   </React.StrictMode>
 );
 
