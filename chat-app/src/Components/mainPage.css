@@ -2,6 +2,7 @@
     font-family: Arial, sans-serif;
     display: flex;
     height: 100vh;
+    position: relative;
 }
 
 .left-sidebar {
@@ -13,67 +14,85 @@
     padding-top: 20px;
 }
 
-.server-icon {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #36393F;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
-.middle-sidebar {
-    background-color: #b7bac2;
-    width: 240px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-}
-
-.user-area {
-    display: flex;
-    margin-bottom: 20px;
-}
-
-.user-image {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
-}
-
-.channels {
-    flex: 1;
-}
-
-.channel {
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 5px;
-    &:hover {
-        background-color: rgb(255, 255, 255);
-    }
-}
-
-.chat-area {
-    flex: 1;
-    background-color: #f6f8fd;
-    /* Add chat-specific styles here */
-}
-
 .chat-header {
     display: flex;
-    justify-content: center; /* Aligns items horizontally in the center */
-    padding: 10px 0;
-    border-bottom: 1px solid rgba(255,255,255,0.1); /* Optional border for separation */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: space-between; /* Push children to the start and end of the container */
+    height: 100px; /* Example height, adjust as needed */
+    border-width: 1px;
+    border-style: solid;
+  }
+
+  .friends-toggle{
+    border-color: black;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    /*border-style: solid;*/
+    left: 80px; /* Start from the leftmost side */
+    right: 0px; /* Stretch it to the rightmost side */
+    height: 60%;
+    width: 100%;
+    
 }
 
-.chat-profile-pic {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%; /* Makes it a circle */
-    object-fit: cover;
+.friends-list {
+    position: absolute;
+    bottom: 50px; /* Adjust this value to the height of your friends-toggle bar so it appears right above it */
+    left: 0;
+    right: 0;
+    background-color: #fff; /* or any color you want */
+    z-index: 1; /* Optional, but can be helpful if you want it to appear above other elements */
+    /* other styles ... */
 }
+
+ 
+.chat {
+    position: relative;
+    width: 100%;
+}
+  
+.result{
+    display: flex;
+}
+  
+.profile_image{
+    height: 40%;
+    width: 100%
+}
+
+.friends_button{
+    display: flex;
+    height: 10%;
+    text-align: center;
+    width: 100%;
+    user-select: none;
+    /* border-color: black;
+    border-width: 1px;
+    border-style: solid; */
+}
+
+.friends_profile_pic{
+    display: flex;
+    width: 30%;
+}
+
+.friends_name{
+    flex-grow: 1;
+    width: 30%;
+}
+
+.message_button{
+    width: 10%;
+}
+
+.trash_button{
+    width: 10%;
+}
+
+.friends_results{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
