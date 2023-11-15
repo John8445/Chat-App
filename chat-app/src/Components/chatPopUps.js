@@ -33,7 +33,7 @@ function FindAndCreate() {
                             
                         </div>
                         <div id='FindAndCreate-add-photo'>+</div>
-                        <button id='FindAndCreate-create-btn'></button>
+                        <button id='FindAndCreate-create-btn'>Create</button>
                     </div>
                 </div>
                 
@@ -44,4 +44,32 @@ function FindAndCreate() {
     )
 }
 
-export default FindAndCreate;
+function EditProfile(){
+    return (
+    <>
+        <FindAndCreate></FindAndCreate>
+        <div id='EditProfile-container'>
+            <div id='EditProfile-title-container'>
+                Edit Profile
+            </div>
+            <div id='FindAndCreate-content-container'>
+            <div id='FindAndCreate-create-container'>
+                    <div id='FindAndCreate-create-server-container'>
+                        <p className="FindAndCreate-create-server-text">Profile Description</p>
+                        <textarea id='FindAndCreate-serverDesc'></textarea>
+                    </div>
+                    <div id='FindAndCreate-create-photo-container'>
+                        <div id='EditProfile-create-photo'>
+                            
+                        </div>
+                        <div id='EditProfile-add-photo'>+</div>
+                        <button id='FindAndCreate-create-btn'>Create</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </>
+    )
+}
+
+export default EditProfile;
